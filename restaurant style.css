@@ -1,0 +1,45 @@
+#header
+ {
+            background-image:url('restaurant.webp') ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin:0px ;
+            padding:0px;
+            border:2px blue ;
+            .overlay{
+                background-color: rgb(255,255,255,0.6);/* white with transperancy*/
+                color: blue;
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+            }
+            
+        }
+        .section{
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 35px;
+                border-radius: 6px;
+            }
+            .content{
+                border: 2px solid violet;
+                margin: 5px;
+                padding: 10px;
+                overflow:auto;
+            }
+            .left{
+                float: left;
+                width: 30%;
+            }
+            .right{
+                float: right;
+                width: 30%;
+                padding-right: 0px;
+                margin-right: 0px;
+            }
+            p.box{
+                margin-right: 0px;
+                padding-right: 0px;
+            }
